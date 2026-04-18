@@ -478,6 +478,28 @@
 /*** footer End ***/
 
 
+/* ===== FIX STRAY \n TEXT IN SKILLS SECTION ===== */
+
+.skills-content,
+.skills-content * {
+    white-space: normal;
+}
+
+.skills-content::before,
+.skills-content::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* Prevent rendering of stray text nodes */
+.skills-content {
+    overflow: hidden;
+    font-size: 0;
+}
+
+.skills-content > * {
+    font-size: initial;
+}
 
 
 
