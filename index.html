@@ -3,15 +3,15 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Aurna's Portfolio</title>
+        <title>Nusrat Rahman Aurna — Professional Portfolio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+        <meta content="Nusrat Rahman Aurna - Computer Science & Engineering Student, Research Assistant at DHMAINetRG, Software Developer in Bangladesh" name="description">
+        <meta content="Nusrat Rahman Aurna, Portfolio, CSE, East West University, Research Assistant, Networking, OppNets, JSAN, C, Java, Python" name="keywords">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Inter:wght@300;400;500;600;700&family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
@@ -20,13 +20,11 @@
         <!-- Libraries Stylesheet -->
         <link rel="stylesheet" href="lib/animate/animate.min.css"/>
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
+        <!-- Baby Pink Theme Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
 
@@ -45,16 +43,20 @@
         <div class="container-fluid nav-section border-0">
             <nav class="navbar navbar-light">
                 <div class="navbar-nav flex-column">
-                    <a href="#home" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
-                    <a href="#about" class="nav-item nav-link"><span class="far fa-address-card"></span> About</a>
-                    <a href="#portfolio" class="nav-item nav-link"><span class="fa fa-blog"></span> Portfolio</a>
-                    <a href="#contact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
+                    <a href="#home" class="nav-item nav-link active" id="nav-home"><span class="fa fa-home"></span> Home</a>
+                    <a href="#about" class="nav-item nav-link" id="nav-about"><span class="far fa-address-card"></span> About</a>
+                    <a href="#publication" class="nav-item nav-link" id="nav-publication"><span class="fa fa-book"></span> Publication</a>
+                    <a href="#skills" class="nav-item nav-link" id="nav-skills"><span class="fa fa-code"></span> Skills</a>
+                    <a href="#education" class="nav-item nav-link" id="nav-education"><span class="fa fa-graduation-cap"></span> Education</a>
+                    <a href="#experience" class="nav-item nav-link" id="nav-experience"><span class="fa fa-briefcase"></span> Experience</a>
+                    <a href="#portfolio" class="nav-item nav-link" id="nav-portfolio"><span class="fa fa-layer-group"></span> Projects</a>
+                    <a href="#contact" class="nav-item nav-link" id="nav-contact"><span class="fas fa-address-book"></span> Contact</a>
                 </div>
             </nav>
         </div>
         <!-- Navbar End -->
 
-        <!-- Header Start -->
+        <!-- Header / Hero Start -->
         <div class="container-fluid" id="home">
             <div class="container">
                 <div class="row g-0">
@@ -64,38 +66,55 @@
                                 <h1 class="display-6 text-white mb-0">NUSRAT</h1>
                             </a>
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
-                                <p class="text-white sub-title">👋 Hello I'm Nusrat</p>
-                                <h1 class="display-6 text-white mb-0">Software Developer in Bangladesh</h1>
+                                <p class="sub-title">👋 Hello I'm Nusrat</p>
+                                <h1 class="display-6 text-white mb-0">Software Developer & Research Assistant</h1>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-9">
                         <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-5">
-                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="bg-light p-4" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;">
-                                        <img src="img/header-img.jpg" class="img-fluid w-100" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Image">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="header-profile-frame p-4">
+                                        <img src="img/header-img.jpg" class="img-fluid w-100 header-profile-img" alt="Nusrat Rahman Aurna">
                                     </div>
                                 </div>
-                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                                    <h1 class="display-6 mb-4">Computer Science & Engineering Student</h1>
-                                    <p class="mb-4">Passionate about Software Development, Algorithms, Networking, and Problem Solving. Currently pursuing a Bachelor's degree with interests in Networking Research, Distributed Systems, and Mathematical Problem Solving. Research Assistant studying Opportunistic Networks, Delay-Tolerant Networks, and Content-Centric Networking.
+                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                    <span class="badge-pink mb-3"><i class="fas fa-university me-2"></i>East West University</span>
+                                    <h1 class="display-6 mb-3">Computer Science & Engineering Student</h1>
+                                    <p class="mb-4">Passionate about Software Development, Operating Systems, Data Structures, Networking Research, and Mathematical Problem Solving. Currently a B.Sc. CSE Student with a <strong>3.76 CGPA</strong> and Research Assistant at <strong>DHMAINetRG</strong> focusing on Opportunistic Networks, Delay-Tolerant Networks (DTNs), and Content-Centric Networking (CCN).
                                     </p>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                        <p class="text-dark mb-0">Dhaka, Bangladesh</p>
+                                    <div class="row g-3 mb-4">
+                                        <div class="col-sm-6">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt text-primary me-3 fs-5"></i>
+                                                <p class="text-dark mb-0 fw-semibold">Dhaka, Bangladesh</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-envelope text-primary me-3 fs-5"></i>
+                                                <p class="text-dark mb-0 fw-semibold">nusrataurna07@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-phone-alt text-primary me-3 fs-5"></i>
+                                                <p class="text-dark mb-0 fw-semibold">+880 1533359793</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fab fa-github text-primary me-3 fs-5"></i>
+                                                <p class="text-dark mb-0 fw-semibold">github.com/Nusrat60-057</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <i class="fas fa-envelope text-primary me-3"></i>
-                                        <p class="text-dark mb-0">nusrat.rahman@example.com</p>
-                                    </div>
-                                    <div class="d-flex align-items-center mb-4">
-                                        <i class="fab fa-github text-primary me-3"></i>
-                                        <p class="text-dark mb-0">github.com/Nusrat60-057</p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <a class="btn btn-primary btn-sm-square me-3" href="https://github.com/Nusrat60-057"><i class="fab fa-github text-white"></i></a>
-                                        <a class="btn btn-primary btn-sm-square me-0" href="https://www.linkedin.com/in/nusrat-rahman-aurna-292b16331/"><i class="fab fa-linkedin-in text-white"></i></a>
+                                    <div class="d-flex flex-wrap gap-2 align-items-center">
+                                        <a class="btn btn-primary px-4 py-2 me-2" href="#contact"><i class="fas fa-paper-plane me-2"></i>Contact Me</a>
+                                        <a class="btn btn-outline-primary px-4 py-2 me-3" href="#publication"><i class="fas fa-book me-2"></i>View Publication</a>
+                                        <a class="btn btn-primary btn-sm-square me-2" href="https://github.com/Nusrat60-057" target="_blank" rel="noopener"><i class="fab fa-github text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square" href="https://linkedin.com/in/nusrat-rahman-aurna" target="_blank" rel="noopener"><i class="fab fa-linkedin-in text-white"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +123,7 @@
                 </div>
             </div>
         </div>
-        <!-- Header End -->
+        <!-- Header / Hero End -->
 
 
         <!-- About Start -->
@@ -114,39 +133,59 @@
                     <div class="col-12 col-lg-3">
                         <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">About Me</p>
-                                <h1 class="display-6 text-white mb-0">CSE Student at East West University</h1>
+                                <p class="sub-title">About Me</p>
+                                <h1 class="display-6 text-white mb-0">CSE Student & Research Assistant</h1>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-9">
                         <div class="about-content h-100 pt-6 ps-6 pb-6">
-                            <div class="row g-5">
-                                <div class="col-xl-5">
-                                    <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <img src="img/about.jpg" class="img-fluid w-100" alt="Image">
-                                        <div class="sosial-icon">
-                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-twitter text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-instagram text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square mb-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 pb-3 border-bottom">
+                                        <h4 class="mb-0">Hello! I'm Nusrat Rahman Aurna</h4>
+                                        <div class="d-flex align-items-center gap-2 mt-2 mt-sm-0">
+                                            <a class="btn btn-primary btn-sm-square" href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square" href="https://linkedin.com/in/nusrat-rahman-aurna" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square" href="mailto:nusrataurna07@gmail.com" title="Email"><i class="fas fa-envelope text-white"></i></a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
-                                    <h4 class="mb-4">Hello, I'm a CSE Student & Research Assistant</h4>
-                                    <p class="mb-4">I am a Computer Science and Engineering student at East West University in Dhaka, Bangladesh. My academic pursuits include Data Structures, Object-Oriented Programming, Discrete Mathematics, and Linear Algebra. As a Research Assistant with DHMAINetRG, I focus on studying and analyzing networking approaches such as Opportunistic Networks (OppNets), Delay-Tolerant Networks (DTNs), and Content-Centric Networking (CCN). I'm enthusiastic about Software Development, Problem Solving, and Networking Research.
+
+                                    <p class="lead text-dark fw-medium mb-3">
+                                        I am a Computer Science and Engineering student at East West University in Dhaka, Bangladesh. My academic foundation spans Data Structures, Object-Oriented Programming, Multithreading, Discrete Mathematics, and Linear Algebra.
                                     </p>
-                                    <div class="row g-4 mb-4">
-                                        <div class="col-6">
-                                            <p><strong class="fw-bold text-dark">Education :</strong> B.Sc. Computer Science & Engineering</p>
-                                            <p><strong class="fw-bold text-dark">University :</strong> East West University</p>
-                                            <p class="mb-0"><strong class="fw-bold text-dark">Address :</strong> Dhaka, Bangladesh</p>
+                                    <p class="mb-4 text-secondary">
+                                        As a <strong>Research Assistant</strong> with the <strong>DHMAINetRG</strong> research group, I analyze next-generation networking paradigms including Opportunistic Networks (OppNets), Delay-Tolerant Networks (DTNs), and Content-Centric Networking (CCN) utilizing <strong>The ONE Simulator</strong>. I have co-authored research published in the peer-reviewed <em>Journal of Sensor and Actuator Networks (JSAN)</em>.
+                                    </p>
+                                    
+                                    <div class="row g-3 mt-2">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="stat-card h-100">
+                                                <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                                                <h5 class="mb-1">3.76 / 4.00 CGPA</h5>
+                                                <p class="text-muted mb-0 small">East West University (107 Credits Completed)</p>
+                                            </div>
                                         </div>
-                                        <div class="col-6">
-                                            <p><strong class="fw-bold text-dark">Status :</strong> Currently Studying (2023-Present)</p>
-                                            <p><strong class="fw-bold text-dark">Scholarships :</strong> Merit & Dean's Scholarship</p>
-                                            <p class="mb-0"><strong class="fw-bold text-dark">Role :</strong> Research Assistant (DHMAINetRG)</p>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="stat-card h-100">
+                                                <div class="stat-icon"><i class="fas fa-award"></i></div>
+                                                <h5 class="mb-1">Merit Scholar</h5>
+                                                <p class="text-muted mb-0 small">Full Tuition-Free Merit & Dean's Scholarship</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="stat-card h-100">
+                                                <div class="stat-icon"><i class="fas fa-flask"></i></div>
+                                                <h5 class="mb-1">Research Assistant</h5>
+                                                <p class="text-muted mb-0 small">DHMAINetRG Research Group</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="stat-card h-100">
+                                                <div class="stat-icon"><i class="fas fa-journal-whills"></i></div>
+                                                <h5 class="mb-1">Journal Publication</h5>
+                                                <p class="text-muted mb-0 small">JSAN Co-Author (2026)</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -158,15 +197,61 @@
         </div>
         <!-- About End -->
 
+        <!-- Publication Start -->
+        <div class="container-fluid" id="publication">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="publication-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="sub-title">Publication</p>
+                                <h1 class="display-6 text-white mb-0">Peer-Reviewed Journal Research</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="publication-content h-100 pt-6 ps-6 pb-6">
+                            <div class="publication-card wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+                                    <span class="badge-pink"><i class="fas fa-check-circle me-1"></i> Peer-Reviewed Journal Article</span>
+                                    <span class="text-muted fw-semibold"><i class="far fa-calendar-alt me-1"></i> 2026</span>
+                                </div>
+                                <h3 class="h4 text-dark mb-3">
+                                    "STGen: A Lightweight Process-Based Testbed for Scalable IoT Protocol Evaluation with Physically Validated Synthetic Sensor and Anomaly Generation"
+                                </h3>
+                                <p class="text-secondary mb-3">
+                                    <strong>Authors:</strong> Co-Author | <strong>Journal:</strong> <em>Journal of Sensor and Actuator Networks (JSAN)</em>, Vol. 15, No. 4, Article 63, 2026.
+                                </p>
+                                <p class="mb-4">
+                                    Presents STGen, an innovative lightweight process-based testbed designed for scalable IoT protocol evaluation. Incorporating physically validated synthetic sensor models and anomaly generation for rigorous network and protocol simulation.
+                                </p>
+                                <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between">
+                                    <div>
+                                        <span class="skill-pill mb-0 me-1">IoT Protocol Evaluation</span>
+                                        <span class="skill-pill mb-0 me-1">Process-Based Testbed</span>
+                                        <span class="skill-pill mb-0">Synthetic Sensor & Anomaly Generation</span>
+                                    </div>
+                                    <a href="https://doi.org/10.3390/jsan15040063" target="_blank" rel="noopener" class="btn btn-primary btn-sm px-4 py-2 mt-2 mt-sm-0">
+                                        <i class="fas fa-external-link-alt me-2"></i>DOI: 10.3390/jsan15040063
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Publication End -->
+
         <!-- Skills Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="skills">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
                         <div class="skills-header bg-dark h-100 pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Skills</p>
-                                <h1 class="display-6 text-white mb-0">Technical expertise</h1>
+                                <p class="sub-title">Skills</p>
+                                <h1 class="display-6 text-white mb-0">Technical Expertise</h1>
                             </div>
                         </div>
                     </div>
@@ -174,89 +259,76 @@
                         <div class="skills-content h-100 pt-6 ps-6 pb-6">
                             <div class="row g-5">
                                 <div class="col-lg-6">
-                                    <h5 class="mb-4">Languages</h5>
+                                    <h5 class="mb-4"><i class="fas fa-code text-primary me-2"></i>Programming Languages</h5>
                                     <div class="mb-3 wow fadeInUp" data-wow-delay="0.1s">
                                         <div class="d-flex justify-content-between mb-2">
-                                            <span>C</span>
+                                            <span class="fw-bold">C</span>
+                                            <span class="text-primary fw-bold">90%</span>
                                         </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.2s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>C++</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>Java</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.4s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>Python</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>SQL</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <h5 class="mb-4">Tools & Frameworks</h5>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.2s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>Git & GitHub</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>VS Code</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
+                                        <div class="progress" style="height: 8px;">
                                             <div class="progress-bar" role="progressbar" style="width: 90%"></div>
                                         </div>
                                     </div>
+                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="fw-bold">C++</span>
+                                            <span class="text-primary fw-bold">85%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="fw-bold">Java</span>
+                                            <span class="text-primary fw-bold">88%</span>
+                                        </div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 88%"></div>
+                                        </div>
+                                    </div>
                                     <div class="mb-3 wow fadeInUp" data-wow-delay="0.4s">
                                         <div class="d-flex justify-content-between mb-2">
-                                            <span>LaTeX</span>
+                                            <span class="fw-bold">Python</span>
+                                            <span class="text-primary fw-bold">80%</span>
                                         </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
                                         </div>
                                     </div>
                                     <div class="mb-3 wow fadeInUp" data-wow-delay="0.5s">
                                         <div class="d-flex justify-content-between mb-2">
-                                            <span>AutoCAD</span>
+                                            <span class="fw-bold">SQL</span>
+                                            <span class="text-primary fw-bold">85%</span>
                                         </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                        <div class="progress" style="height: 8px;">
+                                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
                                         </div>
                                     </div>
-                                    <div class="mb-3 wow fadeInUp" data-wow-delay="0.6s">
-                                        <div class="d-flex justify-content-between mb-2">
-                                            <span>Oracle SQL & APEX</span>
-                                        </div>
-                                        <div class="progress" style="height: 5px;">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
-                                        </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <h5 class="mb-4"><i class="fas fa-tools text-primary me-2"></i>Frameworks & Tools</h5>
+                                    <div class="mb-4">
+                                        <span class="skill-pill">C Standard Library</span>
+                                        <span class="skill-pill">Java Standard Library</span>
+                                        <span class="skill-pill">Git & GitHub</span>
+                                        <span class="skill-pill">VS Code</span>
+                                        <span class="skill-pill">LaTeX</span>
+                                        <span class="skill-pill">AutoCAD</span>
+                                        <span class="skill-pill">Oracle SQL & APEX</span>
+                                        <span class="skill-pill">The ONE Simulator</span>
+                                    </div>
+
+                                    <h5 class="mb-3 mt-4"><i class="fas fa-brain text-primary me-2"></i>Core Areas & Research Interests</h5>
+                                    <div>
+                                        <span class="skill-pill">Opportunistic Networks (OppNets)</span>
+                                        <span class="skill-pill">Delay-Tolerant Networks (DTNs)</span>
+                                        <span class="skill-pill">Content-Centric Networking (CCN)</span>
+                                        <span class="skill-pill">Multithreading & Mutexes</span>
+                                        <span class="skill-pill">Object-Oriented Programming (OOP)</span>
+                                        <span class="skill-pill">Data Structures & Algorithms</span>
+                                        <span class="skill-pill">Mathematical Problem Solving</span>
                                     </div>
                                 </div>
                             </div>
@@ -268,14 +340,14 @@
         <!-- Skills End -->
 
         <!-- Education Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="education">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
                         <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Education</p>
-                                <h1 class="display-6 text-white mb-0">My education qualification</h1>
+                                <p class="sub-title">Education</p>
+                                <h1 class="display-6 text-white mb-0">Academic Qualifications</h1>
                             </div>
                         </div>
                     </div>
@@ -284,41 +356,61 @@
                             <div class="row g-4">
                                 <div class="col-12">
                                     <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">East West University</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2023 - Present
-                                            </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+                                            <h4 class="mb-0 text-dark">B.Sc. in Computer Science and Engineering (CSE)</h4>
+                                            <span class="badge-pink"><i class="fa fa-calendar me-1"></i> 2023 – Present</span>
                                         </div>
-                                        <h4 class="mb-3">B.Sc. in Computer Science & Engineering</h4>
-                                        <p class="mb-0">Pursuing B.Sc. in Computer Science and Engineering with strong focus on Data Structures, Object-Oriented Programming, Discrete Mathematics, and Linear Algebra. Recipient of full tuition-free Merit Scholarship and Dean's Scholarship from East West University.
-                                        </p>
+                                        <p class="fs-5 text-primary fw-semibold mb-2">East West University — Dhaka, Bangladesh</p>
+                                        <div class="d-flex flex-wrap gap-3 mb-3">
+                                            <span class="fw-bold text-dark"><i class="fas fa-star text-warning me-1"></i> Current CGPA: 3.76 / 4.00</span>
+                                            <span class="fw-bold text-dark"><i class="fas fa-check-circle text-success me-1"></i> Credits Completed: 107</span>
+                                        </div>
+                                        <p class="mb-0">Pursuing B.Sc. degree focusing on Data Structures, OOP, Operating Systems, Discrete Mathematics, and Linear Algebra. Awarded full tuition-free Merit Scholarship and Dean's Scholarship.</p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Viqarunnisa Noon School and College</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2020 - 2022
-                                            </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+                                            <h4 class="mb-0 text-dark">Higher Secondary School Certificate (H.S.C)</h4>
+                                            <span class="badge-pink"><i class="fa fa-calendar me-1"></i> 2020 – 2022</span>
                                         </div>
-                                        <h4 class="mb-3">Higher Secondary School Certificate (H.S.C)</h4>
-                                        <p class="mb-0">Completed H.S.C with Grade: A+ in the Science stream. Developed strong foundation in Mathematics, Physics, Chemistry, and analytical thinking at Viqarunnisa Noon School and College.
-                                        </p>
+                                        <p class="fs-5 text-primary fw-semibold mb-2">Viqarunnisa Noon School and College — Dhaka, Bangladesh</p>
+                                        <p class="mb-0">Completed H.S.C in Science stream with <strong>Grade: A+</strong>. Built strong analytical, mathematical, and foundational science expertise.</p>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="education-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">Viqarunnisa Noon School and College</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+                                            <h4 class="mb-0 text-dark">Secondary School Certificate (S.S.C)</h4>
+                                            <span class="badge-pink"><i class="fa fa-calendar me-1"></i> 2018 – 2019</span>
+                                        </div>
+                                        <p class="fs-5 text-primary fw-semibold mb-2">Viqarunnisa Noon School and College — Dhaka, Bangladesh</p>
+                                        <p class="mb-0">Completed S.S.C in Science stream with <strong>Grade: A+</strong>. Achieved academic excellence across core science and logic domains.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Certifications Sub-block -->
+                            <div class="mt-5 wow fadeInUp" data-wow-delay="0.6s">
+                                <h5 class="mb-3"><i class="fas fa-certificate text-primary me-2"></i>Courses & Certifications</h5>
+                                <div class="d-flex flex-wrap gap-3">
+                                    <div class="stat-card flex-fill">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fab fa-python text-primary fs-3 me-3"></i>
                                             <div>
-                                                <span class="fa fa-calendar me-1"></span> 2018 - 2019
+                                                <h6 class="mb-0">Introduction to Python</h6>
+                                                <small class="text-muted">DataCamp Certification</small>
                                             </div>
                                         </div>
-                                        <h4 class="mb-3">Secondary School Certificate (S.S.C)</h4>
-                                        <p class="mb-0">Completed S.S.C with Grade: A+ in the Science stream at Viqarunnisa Noon School and College. Developed comprehensive foundational knowledge in core science subjects and analytical problem-solving.
-                                        </p>
+                                    </div>
+                                    <div class="stat-card flex-fill">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fab fa-git-alt text-primary fs-3 me-3"></i>
+                                            <div>
+                                                <h6 class="mb-0">Introduction to Git</h6>
+                                                <small class="text-muted">DataCamp Certification</small>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -330,14 +422,14 @@
         <!-- Education End -->
 
         <!-- Experience Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="experience">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
                         <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Experience</p>
-                                <h1 class="display-6 text-white mb-0">My real work experience</h1>
+                                <p class="sub-title">Experience</p>
+                                <h1 class="display-6 text-white mb-0">Research & Leadership</h1>
                             </div>
                         </div>
                     </div>
@@ -346,28 +438,28 @@
                             <div class="row g-4">
                                 <div class="col-12">
                                     <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">DHMAINetRG</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> Jan 2025 - Present
-                                            </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between mb-2">
+                                            <h4 class="mb-0 text-dark">Research Assistant</h4>
+                                            <span class="badge-pink"><i class="fa fa-calendar me-1"></i> Jan 2025 – Present</span>
                                         </div>
-                                        <h4 class="mb-3">Research Assistant</h4>
-                                        <p class="mb-0">Studying and analyzing networking approaches such as Opportunistic Networks (OppNets), Delay-Tolerant Networks (DTNs), and Content-Centric Networking (CCN). Utilizing The ONE Simulator to conduct network simulations and evaluate performance metrics for networking research.
-                                        </p>
+                                        <p class="fs-5 text-primary fw-semibold mb-3">DHMAINetRG — Dhaka, Bangladesh</p>
+                                        <ul class="mb-0 text-secondary ps-3">
+                                            <li class="mb-2">Studying and analyzing modern networking paradigms including Opportunistic Networks (OppNets), Delay-Tolerant Networks (DTNs), and Content-Centric Networking (CCN).</li>
+                                            <li>Utilized <strong>The ONE Simulator</strong> to conduct extensive network simulations and evaluate routing performance metrics.</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <p class="fs-5 mb-0 me-4">East West University</p>
-                                            <div>
-                                                <span class="fa fa-calendar me-1"></span> 2024 - Present
-                                            </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between mb-2">
+                                            <h4 class="mb-0 text-dark">Member — EWU Computer Programming Club (EWUCoPC)</h4>
+                                            <span class="badge-pink"><i class="fa fa-calendar me-1"></i> 2024 – Present</span>
                                         </div>
-                                        <h4 class="mb-3">Member - EWU Computer Programming Club (EWUCoPC)</h4>
-                                        <p class="mb-0">Actively participating in programming workshops, problem-solving activities, and technical events organized by the club. Enhanced coding proficiency and analytical skills through collaborative learning and regular practice with peers.
-                                        </p>
+                                        <p class="fs-5 text-primary fw-semibold mb-3">East West University — Dhaka, Bangladesh</p>
+                                        <ul class="mb-0 text-secondary ps-3">
+                                            <li class="mb-2">Participated in programming workshops, problem-solving activities, and technical events organized by the club.</li>
+                                            <li>Enhanced coding proficiency and analytical skills through collaborative peer learning and regular practice.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -376,92 +468,124 @@
                 </div>
             </div>
         </div>
-        <!-- Exparience End -->
+        <!-- Experience End -->
 
 
-        <!-- Portfolio Start -->
+        <!-- Portfolio / Projects Start -->
         <div class="container-fluid" id="portfolio">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
                         <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Portfolio</p>
-                                <h1 class="display-6 text-white mb-0">My Recent Works</h1>
+                                <p class="sub-title">Portfolio</p>
+                                <h1 class="display-6 text-white mb-0">Featured Projects</h1>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9">
                         <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
-                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Operating Systems</h4>
-                                        <h1 class="display-6 mb-0">Acrylic Painting Problem</h1>
-                                    </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/Portfolio-1.jpg" class="img-fluid" alt="Image">
+                            <div class="row g-4">
+
+                                <!-- Project 1 -->
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="stat-card p-4 h-100">
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                                            <div>
+                                                <span class="tech-badge">C</span>
+                                                <span class="tech-badge">Multithreading</span>
+                                                <span class="tech-badge">Mutexes</span>
                                             </div>
+                                            <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm px-3 py-1">
+                                                <i class="fab fa-github me-1"></i> View Code
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/Portfolio-1.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
-                                        </div>
+                                        <h3 class="h4 text-dark mt-2 mb-1">Acrylic Painting Problem</h3>
+                                        <p class="text-muted small mb-2"><i class="fas fa-desktop me-1"></i> Operating Systems & Concurrent Systems</p>
+                                        <p class="text-secondary mb-0">Operating Systems project using C threads and mutexes for synchronized, sequential execution and race-free logging across concurrent processes.</p>
                                     </div>
                                 </div>
-                                <p class="mt-3"><strong>Technologies:</strong> C, Multithreading, Mutexes | Operating Systems project using C threads and mutexes for synchronized, sequential execution and race-free logging.</p>
-                            </div>
-                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Object-Oriented Programming</h4>
-                                        <h1 class="display-6 mb-0">Football Management System</h1>
-                                    </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="Image">
+
+                                <!-- Project 2 -->
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="stat-card p-4 h-100">
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                                            <div>
+                                                <span class="tech-badge">Java</span>
+                                                <span class="tech-badge">OOP</span>
                                             </div>
+                                            <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm px-3 py-1">
+                                                <i class="fab fa-github me-1"></i> View Code
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/portfolio-2.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-2"><i class="fas fa-plus"></i></a>
-                                        </div>
+                                        <h3 class="h4 text-dark mt-2 mb-1">Football Management System</h3>
+                                        <p class="text-muted small mb-2"><i class="fas fa-sitemap me-1"></i> Object-Oriented System Architecture</p>
+                                        <p class="text-secondary mb-0">Role-based football management system applying core OOP concepts for player, coach, team, and league management.</p>
                                     </div>
                                 </div>
-                                <p class="mt-3"><strong>Technologies:</strong> Java, OOP | Role-based football management system implementing OOP concepts for player, coach, and league management.</p>
-                            </div>
-                            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="row g-4 align-items-center">
-                                    <div class="col-xl-6">
-                                        <h4 class="text-body">Database Management</h4>
-                                        <h1 class="display-6 mb-0">Cricket Team Management System</h1>
-                                    </div>
-                                    <div class="col-9 col-xl-4">
-                                        <div class="portfolio-img">
-                                            <div class="portfolio-img-inner">
-                                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="Image">
+
+                                <!-- Project 3 -->
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="stat-card p-4 h-100">
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                                            <div>
+                                                <span class="tech-badge">Java</span>
+                                                <span class="tech-badge">OOP Principles</span>
                                             </div>
+                                            <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm px-3 py-1">
+                                                <i class="fab fa-github me-1"></i> View Code
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="col-3 col-xl-2">
-                                        <div class="view-img">
-                                            <a href="img/portfolio-3.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-3"><i class="fas fa-plus"></i></a>
-                                        </div>
+                                        <h3 class="h4 text-dark mt-2 mb-1">Metro Rail Ticketing System</h3>
+                                        <p class="text-muted small mb-2"><i class="fas fa-subway me-1"></i> Real-World Transit Simulation</p>
+                                        <p class="text-secondary mb-0">Ticket booking and fare management system simulating real-world metro rail operations and passenger transit using modular OOP design.</p>
                                     </div>
                                 </div>
-                                <p class="mt-3"><strong>Technologies:</strong> Oracle SQL, APEX | Developed a comprehensive cricket team management system with database design and web interface using Oracle APEX.</p>
+
+                                <!-- Project 4 -->
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="stat-card p-4 h-100">
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                                            <div>
+                                                <span class="tech-badge">C</span>
+                                                <span class="tech-badge">Data Structures</span>
+                                                <span class="tech-badge">File Storage</span>
+                                            </div>
+                                            <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm px-3 py-1">
+                                                <i class="fab fa-github me-1"></i> View Code
+                                            </a>
+                                        </div>
+                                        <h3 class="h4 text-dark mt-2 mb-1">Trello Project Management Dashboard</h3>
+                                        <p class="text-muted small mb-2"><i class="fas fa-tasks me-1"></i> Command-Line Task Manager</p>
+                                        <p class="text-secondary mb-0">Command-line project management system inspired by Trello. Features project and task creation with priorities, deadlines, status tracking, dynamic linked lists, and persistent file-based storage.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Project 5 -->
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="stat-card p-4 h-100">
+                                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                                            <div>
+                                                <span class="tech-badge">Oracle SQL</span>
+                                                <span class="tech-badge">Oracle APEX</span>
+                                            </div>
+                                            <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm px-3 py-1">
+                                                <i class="fab fa-github me-1"></i> View Code
+                                            </a>
+                                        </div>
+                                        <h3 class="h4 text-dark mt-2 mb-1">Cricket Team Management System</h3>
+                                        <p class="text-muted small mb-2"><i class="fas fa-database me-1"></i> Database Management System</p>
+                                        <p class="text-secondary mb-0">Developed a comprehensive cricket team management system with relational database schema design and web interactive interface built using Oracle SQL and APEX.</p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio End -->
+        <!-- Portfolio / Projects End -->
 
         <!-- Contact Start -->
         <div class="container-fluid" id="contact">
@@ -470,98 +594,102 @@
                     <div class="col-lg-3">
                         <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
                             <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Contact Me</p>
-                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
+                                <p class="sub-title">Contact Me</p>
+                                <h1 class="display-6 text-white mb-0">Let's Connect & Collaborate</h1>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9">
                        <div class="contact-content h-100 pt-6 ps-6 pb-6">
-                            <div class="bg-light p-4">
+                            <div class="bg-light p-4 rounded-4">
                                 <div class="row g-5">
                                     <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
-                                        <h4 class="mb-4">Get in touch with me. I'd be happy to connect and discuss opportunities.</h4>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fas fa-map-marker-alt"></i>
+                                        <h4 class="mb-4">Get in touch with me. I'd be happy to discuss research, projects, or professional opportunities.</h4>
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3 flex-shrink-0">
+                                                <i class="fas fa-map-marker-alt fs-4"></i>
                                             </div>
                                             <div>
-                                                <h4>Address</h4>
-                                                <p class="mb-0">Dhaka, Bangladesh</p>
+                                                <h5 class="mb-1 text-dark">Address</h5>
+                                                <p class="mb-0 text-muted">Dhaka, Bangladesh</p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fas fa-envelope"></i>
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3 flex-shrink-0">
+                                                <i class="fas fa-envelope fs-4"></i>
                                             </div>
                                             <div>
-                                                <h4>Mail Us</h4>
-                                                <p class="mb-0">nusrat.rahman@example.com</p>
+                                                <h5 class="mb-1 text-dark">Email Me</h5>
+                                                <a href="mailto:nusrataurna07@gmail.com" class="mb-0 text-muted">nusrataurna07@gmail.com</a>
                                             </div>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fab fa-github"></i>
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3 flex-shrink-0">
+                                                <i class="fas fa-phone-alt fs-4"></i>
                                             </div>
                                             <div>
-                                                <h4>GitHub</h4>
-                                                <p class="mb-0">github.com/Nusrat60-057</p>
+                                                <h5 class="mb-1 text-dark">Call Me</h5>
+                                                <p class="mb-0 text-muted">+880 1533359793</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3 flex-shrink-0">
+                                                <i class="fab fa-github fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1 text-dark">GitHub</h5>
+                                                <a href="https://github.com/Nusrat60-057" target="_blank" rel="noopener" class="mb-0 text-muted">github.com/Nusrat60-057</a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-xl-square bg-primary text-white me-3 flex-shrink-0">
+                                                <i class="fab fa-linkedin-in fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1 text-dark">LinkedIn</h5>
+                                                <a href="https://linkedin.com/in/nusrat-rahman-aurna" target="_blank" rel="noopener" class="mb-0 text-muted">linkedin.com/in/nusrat-rahman-aurna</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
                                         <div>
-                                            <form>
+                                            <form onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been sent successfully.');">
                                                 <div class="row g-3">
                                                     <div class="col-lg-12 col-xl-6">
                                                         <div class="form-floating">
-                                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                                                             <label for="name">Your Name</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 col-xl-6">
                                                         <div class="form-floating">
-                                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                                                             <label for="email">Your Email</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 col-xl-6">
                                                         <div class="form-floating">
-                                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                                            <input type="text" class="form-control" id="phone" placeholder="Phone">
                                                             <label for="phone">Your Phone</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 col-xl-6">
                                                         <div class="form-floating">
-                                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
-                                                            <label for="project">Your Project</label>
+                                                            <input type="text" class="form-control" id="project" placeholder="Subject / Topic">
+                                                            <label for="project">Subject / Topic</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating">
-                                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
-                                                            <label for="subject">Subject</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div class="form-floating">
-                                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
+                                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 140px" required></textarea>
                                                             <label for="message">Message</label>
                                                         </div>
-                
                                                     </div>
                                                     <div class="col-12">
-                                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                                        <button type="submit" class="btn btn-primary w-100 py-3 font-semibold"><i class="fas fa-paper-plane me-2"></i>Send Message</button>
                                                     </div>
                                                 </div>
                                             </form>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
-                                        <div class="rounded">
-                                            <iframe class="rounded w-100" 
-                                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -582,15 +710,15 @@
                        <div class="footer-content h-100 pt-6 ps-6 pb-6">
                             <div class="row g-4 align-items-center">
                                 <div class="col-12 text-center">
-                                    <div class="d-flex justify-content-center">
-                                        <a class="btn btn-light btn-md-square me-3" href="https://github.com/Nusrat60-057"><i class="fab fa-github"></i></a>
-                                        <a class="btn btn-light btn-md-square me-0" href="https://www.linkedin.com/in/nusrat-rahman-aurna-292b16331/"><i class="fab fa-linkedin-in"></i></a>
+                                    <div class="d-flex justify-content-center gap-3">
+                                        <a class="btn btn-light btn-md-square" href="https://github.com/Nusrat60-057" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                                        <a class="btn btn-light btn-md-square" href="https://linkedin.com/in/nusrat-rahman-aurna" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn btn-light btn-md-square" href="mailto:nusrataurna07@gmail.com"><i class="fas fa-envelope"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-body me-2"></i>Nusrat Rahman Aurna</a>, All rights reserved.</span>
+                                    <span class="text-muted">© 2026 <strong class="text-white">Nusrat Rahman Aurna</strong>. All rights reserved.</span>
                                 </div>
-
                             </div>
                        </div>        
                     </div>
@@ -610,10 +738,7 @@
         <script src="lib/wow/wow.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         
-
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
